@@ -64,6 +64,8 @@
 # print(prime_numbers(num))
 
 def reversed_number(x):
+  x = str(x)
+  x = reversed(x)
   
   return x
 
