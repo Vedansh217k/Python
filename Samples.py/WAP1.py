@@ -72,12 +72,63 @@
 # n =int(input("enter th number:"))
 # print(reversed_number(n))
 
-age = 22
-day = "Thursday"
-price =12 if age>=18 else 8
+# age = 22
+# day = "Thursday"
+# price =12 if age>=18 else 8
 
-if day == "Wednessday":
-    # price = price - 2
-    price -=2
+# if day == "Wednessday":
+#     # price = price - 2
+#     price -=2
 
-print("Ticket price for you id $",price)
+# print("Ticket price for you id $")
+
+# number = 3
+# for i in range(1,11):
+#     if i == 5:
+#         continue
+#     print(number,'x', i , '=', number*i)
+
+
+# input_str = "Python"
+# reversed_str = ""
+# for char in input_str:
+#     reversed_str = char + reversed_str
+# print(reversed_str)    
+
+
+
+# input_str = "teeterasdasd"
+# for char in input_str:
+#     print(char)
+#     if input_str.count(char)==1:
+#         print("Char is: ", char)
+#         break
+# number = 5
+# factorial =1
+
+# while number>0:
+#     # factorial = factorial*number
+#     # number *= number
+#     factorial *=factorial
+#     number-= 1
+
+# print("Factorial value of the number is:",factorial)    
+
+
+# while True:
+#     number = int(input("enter the value between 1 and 10"))
+#     if 1<= number <=10:
+#         print("thanks")
+#         break
+# else:
+#     print("invalid number")
+
+
+
+# items = ["apple" , "banana" , "orange" , "apple" , "mango"]
+# unique_item = set()
+# for item in items:
+#     if item in unique_item:
+#         print("duplicate:",item) 
+#         break
+#     unique_item.add(item)      
