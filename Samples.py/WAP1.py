@@ -1,4 +1,4 @@
-# ## Write a program that prints the numbers from 1 to 50.
+#Write a program that prints the numbers from 1 to 50.
 
 # For multiples of 3, print "Fizz" instead of the number.
 # For multiples of 5, print "Buzz".
@@ -63,11 +63,21 @@
 
 # print(prime_numbers(num))
 
-def reversed_number(x):
-  x = str(x)
-  x = reversed(x)
+# def reversed_number(x):
+#   x = str(x)
+#   x = reversed(x)
   
-  return x
+#   return x
 
-n =int(input("enter th number:"))
-print(reversed_number(n))
+# n =int(input("enter th number:"))
+# print(reversed_number(n))
+
+age = 22
+day = "Thursday"
+price =12 if age>=18 else 8
+
+if day == "Wednessday":
+    # price = price - 2
+    price -=2
+
+print("Ticket price for you id $",price)
