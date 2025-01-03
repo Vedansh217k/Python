@@ -59,4 +59,3 @@ def long_running_time(a,b):
 
 print(long_running_time(2,3))
 print(long_running_time(2,3))
-print(long_running_time(3,4))
