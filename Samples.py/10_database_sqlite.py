@@ -28,6 +28,7 @@ def update_vedio(vedio_id, new_name, new_time):
        
 def delete_vedio(vedio_id):
     conn.execute("DELETE FROM vedio where id = ? ",(vedio_id,))
+  
     
     conn.commit()
 def main():
