@@ -131,4 +131,44 @@
 #     if item in unique_item:
 #         print("duplicate:",item) 
 #         break
-#     unique_item.add(item)      
+#     unique_item.add(item)
+# 
+# def add_numbers(n):
+#     total = 0
+#     for i in range(0,n+1):
+#         total += i
+#     return total 
+# print(add_numbers(4))    
+
+
+
+
+    
+# def prime_numbers(starting_range , ending_range):
+#   lst = []
+#   flag = 0
+#   for i in range(starting_range , ending_range):
+#     for j in range(2, i):
+#       if(i % j == 0):
+        
+#         flag = 1
+#         break
+#       else: flag=0
+#     if(flag == 0):
+#         lst.append(i)
+
+#   return lst
+# print(prime_numbers(2,10))  
+
+# def divisibility(num1 , num2):
+#     if(num1%num2==0):
+#         print(num1 ,"is divisible by", num2)
+#     else:
+#         print(num1 , "is not divisible by" , num2)
+#     return
+
+# def main():
+#     num1=int(input("Enyer the number:"))
+#     num2=int(input("Enter the second number:"))
+#     divisibility(num1, num2)
+# main()
