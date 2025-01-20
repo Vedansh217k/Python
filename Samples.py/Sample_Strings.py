@@ -58,4 +58,23 @@
 # >>> squared_nums = [x**2 for x in range(10)]
 # 
 # # >>> squared_nums
-# [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]  
+# [0, 1, 4, 9, 16, 25, 36, 49, 64, 81] 
+
+
+# def sub_string(main_str,sub_str):
+#     if sub_str in main_str:
+#         print(sub_str)
+#     else:
+#         print("sub string not found")
+
+#     return sub_str
+
+# def main():
+#     main_str = str(input("enter the string:"))
+#     sub_str = str(input("enter the string:"))
+#     sub_string(main_str,sub_str)
+# main()
+
+
+        
+        
