@@ -95,14 +95,14 @@
 #     reversed_str = char + reversed_str
 # print(reversed_str)    
 
-
-
 # input_str = "teeterasdasd"
 # for char in input_str:
 #     print(char)
 #     if input_str.count(char)==1:
 #         print("Char is: ", char)
 #         break
+
+
 # number = 5
 # factorial =1
 
@@ -125,14 +125,15 @@
 
 
 
-# items = ["apple" , "banana" , "orange" , "apple" , "mango"]
+# items = ["apple" , "banana" , "orange" ,"apple" , "mango"]
 # unique_item = set()
 # for item in items:
 #     if item in unique_item:
 #         print("duplicate:",item) 
-#         break
+        
 #     unique_item.add(item)
-# 
+
+# print(unique_item)    
 # def add_numbers(n):
 #     total = 0
 #     for i in range(0,n+1):
@@ -143,7 +144,7 @@
 
 
 
-    
+
 # def prime_numbers(starting_range , ending_range):
 #   lst = []
 #   flag = 0
